@@ -1,0 +1,50 @@
+[
+  {
+    "id": 435,
+    "name": "Cox's Bazar Sea Beach",
+    "desc": "Cox's Bazar is the prime beach and tourist town in Bangladesh, situated alongside the beach of the Bay of Bengal, beside the Indian ocean, having unbroken 120 Kilometer golden sand beach, reachable through motor transport alongside the wavy water . The beach is only a bit crowded in tourist season, October to March, especially near the hotel-motel zone, but remains virgin during the rest of the year, April to September, when it's better to take a trip there.",
+    "duration": " 5 days 6 nights",
+    "img": "https://i.ibb.co/L1d5hw8/coxbazar.jpg",
+    "price": 500
+  },
+  {
+    "id": 87686,
+    "name": "Sundorban Forest",
+    "desc": "Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh's division of Khulna.  Sundarbans National Park, Sundarbans West, Sundarbans South and Sundarbans East Wildlife Sanctuaries",
+    "duration": "4 days 5 nights",
+    "img": "https://i.ibb.co/M6gy8WF/sundarban.jpg",
+    "price": 450
+  },
+  {
+    "id": 89696,
+    "name": "Saint Martin",
+    "desc": "St. Martin's Island  is a small island area only 3 km2 in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip. It is about 8 kilometres (5 miles) west of the northwest coast of Myanmar, at the mouth of the Naf River.",
+    "duration": "3 days 4 nights",
+    "img": "https://i.ibb.co/gPLGPvc/Saintmartin.jpg",
+    "price": 600
+  },
+  {
+    "id": 88,
+    "name": "KuaKata",
+    "desc": "Kuakata is a town in southern Bangladesh known for its panoramic sea beach.[1][2] Kuakata beach is a sandy expanse 18 kilometres (11 mi) long and 3 kilometres  wide. From the beach one can have an unobstructed view of both sunrise and sunset over the Bay of Bengal.",
+    "duration": "2 days 3 nights",
+    "img": "https://i.ibb.co/CmVZ88q/kuakata-beach.jpg",
+    "price": 350
+  },
+  {
+    "id": 907,
+    "name": "Ratargul Swamp Forest",
+    "desc": "Ratargul Swamp Forest is a freshwater swamp forest located in Gowain River, Fatehpur Union, Gowainghat, Sylhet, Bangladesh. It is the only swamp forest located in Bangladesh and one of the few freshwater swamp forests in the world. Its area is 3, 325.61 acre including 504 acre declared as the animal sanctuary in 2015.The forest's name comes from the word, Rata or Pati tree, used by the locals of Sylhet.",
+    "img": "https://i.ibb.co/59Mz9Wd/Ratargul.jpg",
+    "duration": "3 days 4 nights",
+    "price": 650
+  },
+  {
+    "id": 977,
+    "name": "Bandarban Debotakhum",
+    "desc": "Devtakhum is a place of natural beauty in Bandarban district . Here clear water flows in the middle of high mountains on both sides. It is an interesting place for tourists.From Bandarban Town you have to come to Roangchhari first. It is not safe to go here without a guide during the rainy season or any other time. If you do not know how to swim, you should wear a life jacket before going inside the khumra.",
+    "img": "https://i.ibb.co/hftTy5L/debotakhum.jpg",
+    "duration": "2 days 3 nights",
+    "price": 750
+  }
+]
