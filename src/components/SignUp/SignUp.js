@@ -50,7 +50,7 @@ const SignUp = () => {
     }
     return (
         <div className="container">
-             <div className=" d-flex flex-column justify-content-center align-items-center mt-3">
+             <div className=" d-flestify-content-center align-items-center mt-3">
              <h1 className="fs-1 fw-bold mb-5">Create<span className="text-danger">New Account</span> </h1>
         <form onSubmit={handleRegistration} className="w-50 mx-auto">
           <div className="mb-3">

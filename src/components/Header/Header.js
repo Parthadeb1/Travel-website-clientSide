@@ -36,27 +36,43 @@ const Header = () => {
             >
               Packages
             </Nav.Link>
-            <Nav.Link
+              <Nav.Link
               className="fs-6 fw-bold text-white"
               as={Link}
-              to="/myorder"
+              to="/guides"
             >
-              My Order
+              Our Guide
             </Nav.Link>
-            <Nav.Link
+            {user.email?(<Nav.Link
               className="fs-6 fw-bold text-white"
               as={Link}
               to="/manageorder"
             >
               Manage Order
+            </Nav.Link>):(
+              <Nav.Link
+              className="fs-6 fw-bold text-white"
+              as={Link}
+              to="/contactus"
+            >
+              Contact
             </Nav.Link>
-            <Nav.Link
+            )}
+            {user.email?(<Nav.Link
+              className="fs-6 fw-bold text-white"
+              as={Link}
+              to="/addpackage"
+            >
+              AddPackage
+            </Nav.Link>):(
+              <Nav.Link
               className="fs-6 fw-bold text-white"
               as={Link}
               to="/aboutus"
             >
               About Us
             </Nav.Link>
+            )}
             {user.email ? (
               <button
                 onClick={logOut}

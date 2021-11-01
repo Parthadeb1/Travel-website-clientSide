@@ -20,8 +20,7 @@ const Footer = () => {
             </h1>
             <div className="w-50 text-auto">
               <p>
-                Best Choice for Medical Health Care. We Serve the patient by our
-                best Doctors who are best at their Depertment
+              “Take vacations, go as many places as you can, you can always make money, you can’t awakes make memories.”
               </p>
             </div>
           </div>

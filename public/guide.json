@@ -1,0 +1,38 @@
+[
+  {
+    "id": 68,
+    "name": "Simon D'Costa",
+    "profession": "Sea Beach Guide",
+    "img": "https://i.ibb.co/f9CfbdQ/team-1.jpg"
+  },
+  {
+    "id": 987,
+    "name": "Jane Ronan",
+    "profession": "Mountaineering Guide",
+    "img": "https://i.ibb.co/s5k28Kv/team-2.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Saidur Rahman",
+    "profession": "Road Guide",
+    "img": "https://i.ibb.co/smN8KhP/team-3.jpg"
+  },
+  {
+    "id": 759,
+    "name": "Akash Saha",
+    "profession": "Destination Guide",
+    "img": "https://i.ibb.co/BfSy0v1/team-8.jpg"
+  },
+  {
+    "id": 536,
+    "name": "Jennifer Andy",
+    "profession": "Hill Tracking Guide",
+    "img": "https://i.ibb.co/nzXDCzL/team-4.jpg"
+  },
+  {
+    "id": 5646,
+    "name": "Mayesha Rahman",
+    "profession": "Sea Beach Guide",
+    "img": "https://i.ibb.co/M9wtc0P/team-5.jpg"
+  }
+]

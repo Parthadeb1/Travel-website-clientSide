@@ -16,6 +16,9 @@ import SignIn from './components/SignIn/SignIn';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/SignIn/PrivateRoute/PrivateRoute';
 import SignUp from './components/SignUp/SignUp';
+import Guides from './components/Guides/Guides';
+import Contactus from './components/Contactus/Contactus';
+import AddPackage from './components/AddPackage/AddPackage';
 
 function App() {
   return (
@@ -30,17 +33,26 @@ function App() {
           <Route  path="/home">
             <Home/>
           </Route>
+          <Route  path="/guides">
+            <Guides/>
+          </Route>
           <PrivateRoute  path="/packages">
             <Services/>
           </PrivateRoute>
-          <PrivateRoute  path="/myorder">
+          <PrivateRoute  path="/myorder/:packageId">
             <MyOrder/>
           </PrivateRoute>
           <Route  path="/manageorder">
             <ManageOrder/>
           </Route>
+          <Route  path="/addpackage">
+            <AddPackage/>
+          </Route>
           <Route  path="/aboutus">
             <AboutUS/>
+          </Route>
+          <Route  path="/contactus">
+            <Contactus/>
           </Route>
           <Route  path="/signin">
             <SignIn/>
