@@ -10,7 +10,7 @@ const MyOrder = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    axios.post("http://localhost:5000/myOrder", data).then((res) => {
+    axios.post("https://damp-tundra-35888.herokuapp.com/myOrder", data).then((res) => {
       if (res.data.insertedId) {
         alert("Added succesfully");
         reset();
@@ -19,7 +19,7 @@ const MyOrder = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/packages/${packageId}`)
+    fetch(`https://damp-tundra-35888.herokuapp.com/packages/${packageId}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

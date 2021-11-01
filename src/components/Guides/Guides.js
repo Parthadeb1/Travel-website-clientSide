@@ -5,7 +5,7 @@ const Guides = () => {
   const [guides, setGuides] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/guides")
+    fetch("https://damp-tundra-35888.herokuapp.com/guides")
       .then((res) => res.json())
       .then((data) => setGuides(data));
   }, []);

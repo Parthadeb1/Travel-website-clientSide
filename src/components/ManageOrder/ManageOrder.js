@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const ManageOrder = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/packages")
+    fetch("https://damp-tundra-35888.herokuapp.com/packages")
       .then((res) => res.json())
       .then((data) => setServices(data));
   });
@@ -12,7 +12,7 @@ const ManageOrder = () => {
     const procced = window.confirm("Are you sure you want to delete?");
 
     if (procced) {
-      const url = `http://localhost:5000/packages/${id}`;
+      const url = `https://damp-tundra-35888.herokuapp.com/packages/${id}`;
       fetch(url, {
         method: "DELETE",
       })
