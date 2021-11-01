@@ -53,7 +53,7 @@ const SignIn = () => {
         <div className="container">
       <div className=" d-flex flex-column justify-content-center align-items-center mt-3">
         <h1 className="fs-1 fw-bold">
-          Medi<span className="text-danger">Health</span>{" "}
+          Relax<span className="text-danger">Travel</span>{" "}
         </h1>
         <form onSubmit={handleSignIn} className="w-50 mx-auto">
           <div className="mb-3">
